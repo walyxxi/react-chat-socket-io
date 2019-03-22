@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>React Chat</title>
+</head>
+<style>
+    body {
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 0 20px;
+    }
+
+    .container {
+        border: 2px solid #00ffff;
+        background-color: #b3ffff;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .darker {
+        border-color: #00cccc;
+        background-color: #00ffff;
+    }
+
+    .container img {
+        float: left;
+        max-width: 60px;
+        width: 100%;
+        margin-right: 20px;
+        border-radius: 20%;
+    }
+
+    .container img.right {
+        float: right;
+        margin-left: 20px;
+    }
+</style>
+
+<body>
+    <div>
+        <div class="container darker text-center">
+            <h4>
+                <font color="blue"><b>REACT CHAT</b></font>
+            </h4>
+        </div>
+        <hr>
+        <div class="container">
+            <img src="src/img_avatar.png" alt="Avatar" style="width:100%;">
+            <h5><b>Waliyul Ardy</b></h5>
+            <p>Hello. How are you today?</p>
+        </div>
+        <div class="container">
+            <img src="src/img_avatar.png" alt="Avatar" style="width:100%;">
+            <h5><b>Waliyul Ardy</b></h5>
+            <p>Hello. How are you today?</p>
+        </div>
+        <hr>
+        <div class="container darker">
+            <form action="">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Your Name" />
+                <div style="height:5px;"><br></div>
+                <div class="input-group mb-3">
+                    <textarea class="form-control" placeholder="Write your chat here!"></textarea>
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button" id="button-addon2"><i class="fa fa-send"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
